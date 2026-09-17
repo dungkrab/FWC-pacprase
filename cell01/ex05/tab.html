@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: calc(100% - 40px);
+      height: 30vh;
+      border-style: solid;
+      margin: 0 20px;
+    }
+
+    .left {
+      background: green;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 2rem;
+    }
+
+    .right {
+      background: pink;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+    <hr>
+    <div class="container">
+        <div class="left">
+        Left
+        </div>
+        <div class="right">
+        Right
+        </div>
+    </div>
+</body>
+</html>

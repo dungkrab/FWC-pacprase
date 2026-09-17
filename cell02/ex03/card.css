@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+p {
+    margin: 0;
+    color: #777777;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+.socials img:hover {
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 10px 30px;
+
+    background-color: #333333;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #555555;
+}
+

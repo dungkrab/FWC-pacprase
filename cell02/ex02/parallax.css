@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("https://www.purelypetsinsurance.co.uk/media/ceaiqdrb/cat-yawning-on-a-sofa.jpg");
+}
+
+.image2 {
+    background-image: url("https://images.pexels.com/photos/14576367/pexels-photo-14576367.png?cs=srgb&dl=pexels-line-riedel-94535707-14576367.jpg&fm=jpg");
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px 30px;
+    font-size: 24px;
+}
+
+.black-section {
+    height: 400px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-section p {
+    color: white;
+    font-size: 24px;
+}
+
